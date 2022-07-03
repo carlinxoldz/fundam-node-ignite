@@ -2,6 +2,7 @@ const express = require('express')
 const {v4: uuidv4} = require("uuid")
 
 const app = express();
+
 app.use(express.json())
 
 const customers = []
@@ -30,6 +31,7 @@ app.get("/statement", (request, response) => {
     if (!customer) {
         return response.status(400).json({error: "not found"})
     }
+
 
     return response.json(customer.statement)
 })
