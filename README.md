@@ -2,7 +2,7 @@
 
 ---
 
-## Modo de inicialização:
+### Modo de inicialização:
 - yarn/npm dev
 
 ### Requisitos
