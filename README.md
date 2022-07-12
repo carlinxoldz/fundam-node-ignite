@@ -2,6 +2,9 @@
 
 ---
 
+## Modo de inicialização:
+- yarn/npm dev
+
 ### Requisitos
 
 - [x] Deve ser possivel criar uma conta
